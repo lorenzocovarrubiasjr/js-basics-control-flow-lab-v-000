@@ -13,9 +13,7 @@ function scuberGreetingForFeet (number) {
 }
 
 function ternaryCheckCity (city) {
-  let yes =  "Ok, sounds good.";
-  let not = 'No go.';
-  let inCityLimits = (city === "NYC") ? yes : no ;
+ (city === "NYC") ? "Ok, sounds good." : 'No go.' ;
 }
 
 function switchOnCharmFromTip (tip) {
